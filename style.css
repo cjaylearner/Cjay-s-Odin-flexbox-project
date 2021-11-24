@@ -1,0 +1,201 @@
+/*-----Variable Reset-----*/
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html,
+body{
+ font-size: 12px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------Typography------*/
+h1,
+h2,
+h3,h4,
+h5,h6{
+ line-height: 0.9;
+}
+p{
+ line-height: 1.2;
+}
+/*----Custom style------*/
+.container{
+ width: 80%;
+ max-width: 1100px;
+ margin: 0 auto;
+}
+/*------Header/hero section style starts here---*/
+.wrap{
+ background-color: #1f2937;
+}
+
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 2em 0;
+}
+
+.header-logo{
+ font-size: 1.5rem;
+ color: #f9faf8;
+
+}
+.hero-message h1{
+ color: #e5e7eb;
+ font-weight: 900;
+ margin-bottom: 0.5em;
+}
+.hero-section p,
+ul li a{
+ font-size: 1rem;
+ color: #e5e7eb;
+}
+
+
+ul{
+ display: flex;
+ list-style-type: none;
+}
+ul a{
+ text-decoration: none;
+ margin-left: 2em;
+}
+.hero-section{
+ display: flex;
+ justify-content: space-around;
+ padding: 5em 0;
+}
+.hero-message {
+ width: 50%;
+}
+
+.hero-message p,
+.hero-message {
+ width: 70%;
+}
+
+.hero-message button{
+ background-color: #3882f6;
+ color: #e5e7eb;
+ margin-top: 1em;
+ cursor: pointer;
+}
+button{
+ width: 90px;
+ border: none;
+ border-radius: 5px;
+ padding: 0.2em 0;
+ font-weight: 900;
+}
+.hero-img{
+ background-color: #a3a5a9;
+ width: 40%;
+ align-self: flex-start;
+ 
+}
+.hero-img p{
+ width: 60%;
+ max-width: 700px;
+ margin: 3em auto;
+
+}
+/*------Header/hero section style ends here---*/
+
+
+/*First section style starts here------*/
+.section-wrap{
+ text-align: center;
+ padding: 5em 0;
+}
+
+
+.section-wrap h2{
+margin-bottom: 1em;
+}
+.row{
+ display: flex;
+ 
+}
+.col{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 10px;
+}
+
+.col+.col{
+ margin-left: 0.8em;
+}
+
+.rect{
+ width: 100px;
+ height: 70px;
+ border: 2px solid #2882f6;
+ border-radius: 10px;
+}
+.col p{
+ width: 56%;
+ text-align: center;
+}
+/*First section style ends here------*/
+
+/*----Second section style starts here-----*/
+.second-section{
+ background-color: #e5e7eb;
+ padding: 8em 0;
+}
+.create-gap{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 1em;
+
+}
+.create-gap p{
+ width: 50%;
+ margin: 0 auto;
+}
+/*.quote-author{
+ margin: 0 auto;
+}
+*/
+/*----Second section style ends here-----*/
+
+/*-----Call-to-action style starts here-----*/
+.call-to-action-section{
+ margin: 2em 0;
+ padding: 3em;
+
+}
+
+.call-to-action{
+background-color: #3882f6;
+padding: 2em;
+display: flex;
+justify-content: space-between;
+border-radius: 3px;
+color: #f9faf8;
+}
+.call-to-action button{
+border: 1px solid #f9faf8; 
+color: #f9faf8;
+background-color: transparent;
+font-weight: 900;
+cursor: pointer;
+
+}
+/*-----Call-to-action style ends here-----*/
+
+/*Footer style starts here-----*/
+footer{
+ background-color: #1f2937;
+ padding: 2em;
+ text-align: center;
+ color: #f9faf8;
+}
+/*Footer style endss here-----*/
